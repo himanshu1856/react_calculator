@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.keypad{
+    width: 100%;
+    height: 78%;
+    margin: auto;
+}
+
+.output{
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.result{
+    font-size: 2rem;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+.buttonNml,
+.buttonPmy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.buttonNml > button{
+    width: 90px;
+    height: 4rem;
+    font-size: 2rem;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.buttonPmy > button{
+    width: 120px;
+    height: 4rem;
+    font-size: 2rem;
+    border: none;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+table > td{
+    margin: 0;
+}
+
+#main{
+    background-color: navy;
+}
+
